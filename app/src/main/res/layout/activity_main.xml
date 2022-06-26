@@ -1,29 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:text="오늘 뭐 먹지?"
         android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:textAlignment="center"
+        android:textColor="@color/black" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="250dp"
-        android:background="#00BCD4"
+        android:background="#F3EBA9"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="68dp">
 
         <Button
+            android:background="@drawable/button_style"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="혼밥"
@@ -33,6 +35,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <Button
+            android:background="@drawable/button_style"
             android:id="@+id/button8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -43,6 +46,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <Button
+            android:background="@drawable/button_style"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="가족"
@@ -52,6 +56,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <Button
+            android:background="@drawable/button_style"
             android:id="@+id/button9"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -62,6 +67,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <Button
+            android:background="@drawable/button_style"
             android:id="@+id/button6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -72,6 +78,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <Button
+            android:background="@drawable/button_style"
             android:id="@+id/button4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -82,6 +89,7 @@
             app:layout_constraintTop_toBottomOf="@+id/button9" />
 
         <Button
+            android:background="@drawable/button_style"
             android:id="@+id/button2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -92,6 +100,7 @@
             app:layout_constraintTop_toBottomOf="@+id/button" />
 
         <Button
+            android:background="@drawable/button_style"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text=""
@@ -101,6 +110,7 @@
             app:layout_constraintTop_toBottomOf="@+id/button6" />
 
         <Button
+            android:background="@drawable/button_style"
             android:id="@+id/button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -112,4 +122,27 @@
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="700dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="추천 메뉴">
+            </TextView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
