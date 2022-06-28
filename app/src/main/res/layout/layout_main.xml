@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="오늘 뭐 먹지?"
+        android:text="@string/title_name"
         android:textSize="20sp"
         android:textAlignment="center"
         android:textColor="@color/black" />
@@ -28,7 +28,7 @@
             android:background="@drawable/button_style"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="혼밥"
+            android:text="@string/menu_name1"
             app:layout_constraintBottom_toTopOf="@+id/button9"
             app:layout_constraintEnd_toStartOf="@+id/button8"
             app:layout_constraintStart_toStartOf="parent"
@@ -39,7 +39,7 @@
             android:id="@+id/button8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="애인"
+            android:text="@string/menu_name2"
             app:layout_constraintBottom_toTopOf="@+id/button"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -49,7 +49,7 @@
             android:background="@drawable/button_style"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="가족"
+            android:text="@string/menu_name3"
             app:layout_constraintBottom_toTopOf="@+id/button6"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/button8"
@@ -60,7 +60,7 @@
             android:id="@+id/button9"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="친구"
+            android:text="@string/menu_name8"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/button"
             app:layout_constraintStart_toStartOf="parent"
@@ -71,7 +71,7 @@
             android:id="@+id/button6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="홈파티"
+            android:text="@string/menu_name5"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/button"
@@ -82,7 +82,7 @@
             android:id="@+id/button4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text=""
+            android:text="@string/menu_name4"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/button2"
             app:layout_constraintStart_toStartOf="parent"
@@ -93,7 +93,7 @@
             android:id="@+id/button2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text=""
+            android:text="@string/menu_name6"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -103,7 +103,7 @@
             android:background="@drawable/button_style"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text=""
+            android:text="@string/menu_name7"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/button2"
@@ -114,7 +114,7 @@
             android:id="@+id/button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text=""
+            android:text="@string/menu_name9"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -128,18 +128,22 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical">
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="추천 메뉴">
-            </TextView>
+                android:paddingTop="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="0dp"
+                android:text="@string/bottom_name"
+                android:textColor="@color/black" />
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="wrap_content"/>
 
         </LinearLayout>
 

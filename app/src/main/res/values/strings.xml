@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">FoodApp</string>
+    <string name="title_name">오늘 뭐 먹지?</string>
+    <string name="menu_name1">혼밥</string>
+    <string name="menu_name2">커플</string>
+    <string name="menu_name3">가족</string>
+    <string name="menu_name4">캠핑</string>
+    <string name="menu_name5">홈파티</string>
+    <string name="menu_name6">국내여행</string>
+    <string name="menu_name7">해외여행</string>
+    <string name="menu_name8">친구</string>
+    <string name="menu_name9"></string>
+    <string name="bottom_name">추천 메뉴</string>
 </resources>
