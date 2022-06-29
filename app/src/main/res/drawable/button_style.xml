@@ -12,7 +12,7 @@
             <stroke
                 android:color="#00FFFFFF"/>
             <solid
-                android:color="#F7F3D8"/>
+                android:color="#E2EFEC"/>
         </shape>
     </item>
 </selector>

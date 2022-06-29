@@ -20,12 +20,13 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="250dp"
-        android:background="#F3EBA9"
+        android:background="#B7CBCA"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="68dp">
 
         <Button
             android:background="@drawable/button_style"
+            android:id="@+id/button1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/menu_name1"
@@ -47,6 +48,7 @@
 
         <Button
             android:background="@drawable/button_style"
+            android:id="@+id/button3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/menu_name3"
@@ -101,6 +103,7 @@
 
         <Button
             android:background="@drawable/button_style"
+            android:id="@+id/button5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/menu_name7"
@@ -123,6 +126,7 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <ScrollView
+        android:background="@drawable/scrollview_style"
         android:layout_width="match_parent"
         android:layout_height="700dp">
 
