@@ -156,6 +156,7 @@
                 android:layout_height="wrap_content">
 
                 <androidx.appcompat.widget.AppCompatImageButton
+                    android:id="@+id/recommend_button1"
                     android:layout_width="180dp"
                     android:layout_height="180dp"
                     android:layout_marginStart="16dp"
@@ -164,12 +165,31 @@
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <androidx.appcompat.widget.AppCompatImageButton
+                    android:id="@+id/recommend_button2"
                     android:layout_width="180dp"
                     android:layout_height="180dp"
                     android:layout_marginTop="16dp"
                     android:layout_marginEnd="16dp"
                     app:layout_constraintRight_toRightOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
+
+                <androidx.appcompat.widget.AppCompatImageButton
+                    android:id="@+id/recommend_button3"
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/recommend_button1" />
+
+                <androidx.appcompat.widget.AppCompatImageButton
+                    android:id="@+id/recommend_button4"
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/recommend_button2" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
