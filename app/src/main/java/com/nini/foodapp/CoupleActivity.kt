@@ -1,18 +1,19 @@
 package com.nini.foodapp
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import androidx.appcompat.app.AppCompatActivity
 
-class HonbabActivity : AppCompatActivity() {
+class CoupleActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.layout_honbab)
+        setContentView(R.layout.layout_couple)
+
 
         val btn = findViewById<Button>(R.id.button1) as Button
         btn.setOnClickListener {
-            startActivity(Intent(this@HonbabActivity, HonbabActivity::class.java))
+            startActivity(Intent(this@CoupleActivity, CoupleActivity::class.java))
         }
     }
 }
