@@ -12,9 +12,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="@string/menu_name1"
+        android:text="혼밥 할 때 뭘 먹을까?"
         android:textSize="20sp"
-        android:textAlignment="center"
+        android:gravity="center"
         android:textColor="@color/black" />
 
     <androidx.constraintlayout.widget.ConstraintLayout

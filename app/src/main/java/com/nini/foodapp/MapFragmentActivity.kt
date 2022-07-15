@@ -3,13 +3,12 @@ package com.nini.foodapp
 import android.os.Bundle
 import androidx.annotation.UiThread
 import androidx.fragment.app.FragmentActivity
-import androidx.fragment.app.FragmentTransaction
 import com.naver.maps.map.MapFragment
 import com.naver.maps.map.NaverMap
 import com.naver.maps.map.OnMapReadyCallback
 
 class MapFragmentActivity : FragmentActivity(), OnMapReadyCallback {
-    override fun onCrate(savedInstanceState: Bundle?) {
+    override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
         setContentView(R.layout.layout_main)
